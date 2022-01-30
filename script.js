@@ -4,7 +4,6 @@ function compute(){
     var time = document.getElementById("years").value;
     var amount = principal * time * interest/100;
     var year = new Date().getFullYear() + parseInt(time);
-    // var amount = parseInt(principal) + interest;
 
     if(principal <= 0){
         alert("Enter a Positive Number");
