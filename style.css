@@ -38,9 +38,6 @@ footer{
 #btn{
     cursor: pointer;
 }
-#btn:active + .maindiv{
-    height: 420px;
-}
 .divHeight{
     height: 400px;
 }
