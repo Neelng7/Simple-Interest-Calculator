@@ -10,10 +10,10 @@ function compute(){
         document.getElementById("principal").focus();
     }else{
         document.getElementById("result").innerHTML = 
-        "If you deposit <mark>" + principal + "</mark>, \<br>\
-        at an interest rate of <mark>" + interest + "%</mark>. \<br>\
-        You will receive an amount of <mark>" + amount + "</mark>, <br>\
-        in the year <mark>" + year + "</mark>.<br>";
+        "If you deposit <mark>" + principal + `</mark>,<br>
+        at an interest rate of <mark>` + interest + `%</mark>.<br>
+        You will receive an amount of <mark>` + amount + `</mark>,<br>
+        in the year <mark>` + year + "</mark><br>";
 
         //Increase div height onclick
         var element = document.getElementById("maindiv");
